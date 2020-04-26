@@ -1,0 +1,22 @@
+.img-myprofile {
+  width: 500px;
+}
+.img-widePic {
+  width: 800px;
+}
+
+h1 {
+  font-size: 42px;
+  text-transform: uppercase;
+  color: red;
+}
+
+h2 {
+  font-size: 25px;
+  color: rgb(82, 8, 82);
+}
+
+body {
+  font-family: Calibri, "Segoe UI", Arial, Helvetica, sans-serif;
+  max-width: 500px;
+}
