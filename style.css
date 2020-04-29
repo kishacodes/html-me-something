@@ -1,22 +1,72 @@
-.img-myprofile {
-  width: 500px;
-}
-.img-widePic {
-  width: 500px;
+@font-face {
+  font-family: introheadr-base;
+  src: url(fonts/introheadr-base-webfont.woff) format("woff2");
+  /* url("introheadr-base-webfont.woff") format("woff"); */
+  font-weight: normal;
+  font-style: normal;
 }
 
+/* Images */
+.img-myprofile {
+  width: 400px;
+  position: relative;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+}
+.img-widePic {
+  width: 400px;
+  margin: 10 auto;
+}
+.centered {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+div img {
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+
+/* Headers */
 h1 {
-  font-size: 42px;
+  font-family: introheadr-base;
+  font-size: 70px;
   text-transform: uppercase;
-  color: red;
+  color: purple;
+  margin: 0 auto;
 }
 
 h2 {
-  font-size: 25px;
+  font-size: 20px;
   color: rgb(82, 8, 82);
+  margin: 0 auto;
 }
-
+h5 {
+  font-family: introheadr-base;
+  font-size: 18px;
+  text-transform: uppercase;
+  color: whitesmoke;
+  margin: 0 auto;
+}
+/* Body text */
 body {
   font-family: Calibri, "Segoe UI", Arial, Helvetica, sans-serif;
-  max-width: 500px;
+  max-width: 350px;
+}
+
+/* Dividers */
+div {
+  background-color: palevioletred;
+  opacity: rgba(0, 128, 0, 0.8);
+}
+#secondary_div {
+  background-color: rgb(226, 195, 206);
+}
+#thin_line {
+  background-color: black;
 }
