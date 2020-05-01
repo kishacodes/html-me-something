@@ -7,8 +7,10 @@
 }
 
 /* Images */
-.img-myprofile {
-  width: 400px;
+
+*/ .img-headshot {
+  /* width: 100px; */
+  background-size: auto 200px;
   position: relative;
   top: 0;
   left: 0;
